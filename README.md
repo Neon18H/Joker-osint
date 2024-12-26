@@ -17,15 +17,29 @@ This tool is designed to perform searches on Google, social networks, and the De
       img2txt
       tor
 
-## Uso Responsable
+# Search and Information Gathering Tool
 
-Al usar esta herramienta, es importante tomar algunas precauciones para evitar el bloqueo de IP:
+## ⚠️ **Important Warning** ⚠️
 
-1. **Realiza búsquedas moderadas**: Evita hacer demasiadas búsquedas en un corto período de tiempo.
-2. **Usa un VPN o Tor**: Si vas a hacer múltiples búsquedas, usar una VPN o Tor puede ayudarte a proteger tu IP.
-3. **No abuse de las búsquedas**: Si deseas realizar búsquedas masivas, trata de espaciar las consultas y dar tiempo suficiente entre cada una.
+**This tool should be used with _care_ and _prudence_**. Performing mass searches or scraping without moderation can lead to **IP blocking** from the services you use, such as Google, social networks or the Deep Web.
 
-### Instalación de Tor (opcional para buscar en la Deep Web):
-- [Guía de instalación de Tor](https://www.torproject.org/download/)
+### 🛑 **Tips to avoid blocks**:
+- **Perform moderate searches**: Avoid doing too many searches in a short period of time.
+- **Use a VPN or Tor**: If you are going to do multiple searches, using a VPN or Tor can help protect your IP.
+- **Don't overdo searches**: If you want to do mass searches, try to space out the queries and allow enough time between each one.
 
-**¡Recuerda que el uso responsable es esencial!**
+**Use this tool responsibly!** ⚠️
+
+## 🔐 **Safe use on the Deep Web**:
+If you are going to use the tool to search the Deep Web, keep in mind that many sites may be monitored. To make queries more safely, consider using:
+
+- **VPN**: Protect your connection and hide your IP.
+- **Tor**: Access the Deep Web anonymously.
+- [Tor Installation Guide](https://www.torproject.org/download/)
+
+### 💡 **Remember**:
+Excessive use of this tool without caution may result in temporary IP blocks on services such as Google or social networks. Be responsible and take care of your privacy!
+
+---
+
+> **Notice**: This tool is intended for educational and research purposes only. Do not engage in illegal or malicious activities.
