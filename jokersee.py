@@ -4,13 +4,11 @@ import sys
 import shutil
 import time
 
-# Función para mostrar los créditos
 def credits():
     print("\n\033[31mCreado por: \033[0m\033[34mFabio Hams Valois Marin\033[0m")
     print("\033[32mLinkedIn: \033[34mwww.linkedin.com/in/fabio-hams-valois-marin-9514ab340\033[0m")
     print("\n\033[31mGracias por usar esta herramienta. Si te atreves...\033[0m")
 
-# Función para mostrar la imagen joker.png con carga lenta
 def show_image():
     if shutil.which("img2txt") is not None:
         if os.path.exists("joker.png"):
@@ -23,13 +21,13 @@ def show_image():
     else:
         print("\n\033[1;31mNo se puede mostrar la imagen. Asegúrate de tener la herramienta 'img2txt' instalada.\033[0m")
 
-# Función para realizar la búsqueda en Google
+# búsqueda en Google
 def search_google(query):
     print(f"\n\033[1;35mBuscando en Google: {query}\033[0m")
     subprocess.run(["googler", "--count", "10", query])
     time.sleep(5)  # Pausa de 5 segundos entre cada búsqueda para evitar bloqueos
 
-# Función para buscar en varias redes sociales con el nombre de usuario
+#  redes sociales con el nombre de usuario
 def search_social_media(username):
     print(f"\n\033[1;36mBuscando en redes sociales para: {username}\033[0m")
     search_google(f"site:twitter.com {username}")
@@ -38,7 +36,7 @@ def search_social_media(username):
     search_google(f"site:facebook.com {username}")
     search_google(f"site:reddit.com {username}")
 
-# Función para buscar en la Deep Web (.onion)
+#  buscar en la Deep Web (.onion)
 def search_deep_web(query):
     print(f"\n\033[1;32mBuscando en la Deep Web: {query}\033[0m")
     subprocess.run(["googler", f"site:.onion {query}"])
@@ -56,7 +54,7 @@ def search_company_related(company_name):
     search_deep_web(f"nómina {company_name}")
     search_deep_web(f"documentos {company_name}")
 
-# Función para el menú interactivo
+
 def menu():
     os.system('clear')
     show_image()  # Mostrar la imagen lentamente al iniciar
